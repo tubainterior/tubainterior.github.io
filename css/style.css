@@ -11133,12 +11133,10 @@ select {
 
 /** - Start  Curser Pointer CSS */
 /** - Disable Custom Cursor & Restore Normal Pointer */
+/** - Disable Custom Cursor Rings */
 .cursor,
 .cursor2 {
   display: none !important;
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
 }
 
 html, body {
